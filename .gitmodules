@@ -16,3 +16,6 @@
 [submodule "bundle/screxpl"]
 	path = bundle/screxpl
 	url = https://github.com/vim-scripts/SrcExpl.git
+[submodule "bundle/taglist"]
+	path = bundle/taglist
+	url = https://github.com/vim-scripts/taglist.vim.git
