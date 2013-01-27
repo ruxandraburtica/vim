@@ -1,0 +1,17 @@
+1. Clone the repo in the ~/.vim folder:
+git clone git@github.com:ruxandraburtica/vim.git ~/.vim
+
+2. Update submodules
+cd ~/.vim
+git submodule init
+git submodule update
+
+3. Copy the .vimrc in the home directory
+
+4. Command-T requires vim to be compiled with Ruby support, so:
+sudo apt-get install ruby1.9.1-dev
+sudo gem install sys-proctable
+sudo gem install passenger
+
+From ~/.vim/bundle/command-t, run:
+rake make
